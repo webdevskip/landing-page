@@ -80,3 +80,60 @@ button {
     justify-content: center;
     height: 215px;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5em;
+    max-width: 150px;
+    text-align: center;
+}
+
+.border {
+    border: solid #3882F6 5px ;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.square p {
+    color: gray;
+}
+
+.thor {
+    background-color: #E5E7EB;
+    padding: 7em;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sign {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
