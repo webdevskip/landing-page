@@ -137,3 +137,40 @@ button {
     font-weight: bold;
     text-align: end;
 }
+
+.action {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 40px 90px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.action .left {
+    width: 95%;
+}
+ 
+.action .right {
+    align-self: center;
+}
+
+.action h3 {
+    color: #F9FAF8;
+}
+
+.action p {
+    color: #E5E7EB;
+    padding: 4px 0px;
+}
+
+.action button {
+    border: 2px solid #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 0px;
+}
